@@ -1,3 +1,4 @@
+// graded by ryo
 // challenge 3
 function each(array, func) {
   for (var i = 0; i < array.length; i++) {

@@ -1,3 +1,4 @@
+// graded by ryo
 //1.
 function wordLengths(string) {
   var acc = [];

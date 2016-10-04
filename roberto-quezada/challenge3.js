@@ -1,3 +1,4 @@
+// graded by ryo
 function wordLengths(string) {
  var acc = [];
  var words = string.split(" ");

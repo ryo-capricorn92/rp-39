@@ -1,3 +1,4 @@
+// graded by ryo
 // Problem 1, using each
 
 function wordLengths(string) {

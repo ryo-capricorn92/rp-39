@@ -1,3 +1,4 @@
+// graded by ryo
 1.
 function each(array, func) {
   for (var i = 0; i < array.length; i++) {

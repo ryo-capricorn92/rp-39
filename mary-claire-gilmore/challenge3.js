@@ -1,3 +1,4 @@
+// graded by ryo
 //challenge 3
 function wordLengths(string) {
  var acc = [];
