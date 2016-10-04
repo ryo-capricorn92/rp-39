@@ -87,3 +87,37 @@ function longestName(people) {
 return (people[i].name.first + " " + people[i].name.middle + " " + people[i].name.last)
 }
 console.log(longestName(people));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// turned in after the fact
+function longestName(people) {
+   var length1 = 0;
+   var longest
+   for (var i = 0; i < people.length; i++) {
+       if(people[i].name.middle===undefined){
+           if (length1 < (people[i].name.first+people[i].name.last).length) {
+       length1 = (people[i].name.first +people[i].name.last).length
+       longest =(people[i].name.first + " " + people[i].name.last)
+     }
+   }else{
+       if (length1 < (people[i].name.first +people[i].name.middle+people[i].name.last).length) {
+       length1 = (people[i].name.first +people[i].name.middle + people[i].name.last).length
+          longest =(people[i].name.first + " " + people[i].name.middle + " " + people[i].name.last)
+        }
+    }
+}
+return longest
+}
